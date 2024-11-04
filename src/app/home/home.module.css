@@ -1,0 +1,48 @@
+.section{
+  padding: var(--section-padding);
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 100px;
+}
+.content h2{
+  font-size: 2.5rem;
+  font-weight: 700;
+  
+}
+.content h2 span{
+  font-weight: 300;
+}
+
+.content h1{
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+.content p{
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--color-1);
+}
+
+.buttons{
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+.image{
+  max-width: 400px ;
+}
+
+
+@media (max-width: 768px) {
+  
+  .section{
+    flex-direction: column ;
+    align-items: center;
+    margin: unset;
+  }
+  .content h2 span{
+    display: none;
+  }
+}

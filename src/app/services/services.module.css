@@ -1,0 +1,14 @@
+.card{
+  padding: var(--section-padding);
+  display: grid;
+  grid-template-columns: repeat(2,2fr);
+  place-items: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+@media (max-width:768px) {
+  .card{
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

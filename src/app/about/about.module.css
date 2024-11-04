@@ -1,0 +1,30 @@
+.section{
+  padding: var(--section-padding);
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  padding-top: 80px;
+}
+.image{
+  max-width: 500px;
+}
+.content{
+  max-width: 500px;
+}
+
+.content h1{
+  font-size: 3rem;
+  font-weight: 600;
+}
+.content p{
+  margin: 20px 0px;
+  color: rgb(125, 124, 124);
+}
+
+
+@media (max-width: 768px) {
+  .section{
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
